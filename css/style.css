@@ -22,13 +22,13 @@ body{
 .container{
     width: 900px;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 /* Header */
 
 header{
     min-width: 900px;
+    overflow: hidden;
     background: #ff4c4c;
     margin-bottom: 30px;
 }
