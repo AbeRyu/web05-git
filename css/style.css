@@ -4,24 +4,31 @@
 }
 
 body{
-    width: 100%;
     background: #f9f9f9;
 }
 
-.main-visual{
-    width: 100%;
-    min-height: 400px;
-    background: #fff url(../images/mainvisual.jpg) 0 0 no-repeat;
-    background-size: cover;
-}
+/* hero */
 
+.hero{
+  min-width: 900px;
+  height: 400px;
+  overflow: hidden;
+}
+.hero img {
+  display: block;
+  width: 900px;
+  margin: auto;
+}
 .container{
     width: 900px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
+/* Header */
+
 header{
-    overflow: hidden;
+    min-width: 900px;
     background: #ff4c4c;
     margin-bottom: 30px;
 }
@@ -35,8 +42,10 @@ header h1{
     margin-right: 24px;
 }
 
+/* Navigation */
+
 nav{
-    float: right;
+  float: right;
 }
 
 nav li{
@@ -51,7 +60,7 @@ nav a{
     padding: 8px;
     display: block;
     transition: 0.5s;
-    border-bottom: 0px solid #f9f9f9;
+    border-bottom: 0 solid #f9f9f9;
 }
 
 nav a:hover{
@@ -59,10 +68,7 @@ nav a:hover{
     color: #ff4c4c;
 }
 
-.section{
-    text-align: center;
-    margin-bottom: 30px;
-}
+/* main */
 
 main{
     width: 900px;
@@ -71,20 +77,30 @@ main{
     background: #fff;
 }
 
+main .section{
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main .section h2{
+    color: #ff4c4c;
+    margin-bottom: 20px;
+}
+
 .col-2{
     width: 264px;
     padding: 18px;
     float: left;
-    border-right: 0px solid #000;
+    border-right: 0 solid #000;
+    overflow: hidden;
 }
 
-.img-center{
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 26px;
+.col-2 img {
+  width: 264px;
+  margin: 0 auto;
+  margin-bottom: 26px;
 }
-
-
 
 .btn{
     font-size: 12px;
@@ -99,7 +115,7 @@ main{
     float: left;
 }
 
-.lit-btn:hover{
+.btn:hover{
     background: #ff4c4c;
     color: #f9f9f9;
 }
@@ -109,15 +125,6 @@ main{
     font-size: 18px;
     width: 264px;
     margin-bottom: 5px;
-}
-
-.section{
-    padding: 10px 0;
-}
-
-.section h1{
-    color: #ff4c4c;
-    margin-bottom: 20px;
 }
 
 .description{
